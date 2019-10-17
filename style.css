@@ -2,19 +2,7 @@ body,a,h1{
   margin: 0;
 }
 
-.logo1 {
-  padding-left: 43px;
-  background-color: orange;
-  color: black;
-  font-size: 22px;
-  }
 
-.logo2  {
-  background-color: orange;
-  color: black;
-  font-size: 50px;
-  padding: 5px 40px;
-}
 
 /* -------------------- */
 /* ▼メニューバーの装飾 */
@@ -22,15 +10,15 @@ body,a,h1{
 ul.ddmenu {
   padding: 0px 0px 0px 0px;
   margin: 0px;               /* メニューバー外側の余白(ゼロ) */
-  height: 100px;
+  height: 50px;
 }
 
 /* -------------------------- */
 /* ▼メインメニュー項目の装飾 */
 /* -------------------------- */
 ul.ddmenu li {
-  float: left;
-  width: 20%;         /* メニュー項目の横幅(125px) */
+  float: left;  font-size: 150px;
+  width: 25%;         /* メニュー項目の横幅(125px) */
   display: inline-block; /* ★横並びに配置する */
   list-style-type: none; /* ★リストの先頭記号を消す */
   position: relative;    /* ★サブメニュー表示の基準位置にする */
@@ -42,7 +30,7 @@ ul.ddmenu a{
   line-height: 50px;         /* メニュー項目のリンクの高さ(40px) */
   text-align: center;        /* メインメニューの文字列の配置(中央寄せ) */
   text-decoration: none;     /* メニュー項目の装飾(下線を消す) */
-  font-size: 17px;
+  font-size: 20px;
   font-weight: bold;         /* 太字にする */
   display: block;        /* ★項目内全域をリンク可能にする */
   }
@@ -63,6 +51,7 @@ ul.ddmenu li:hover > ul {
 /* ▼サブメニューの装飾 */
 /* -------------------- */
 ul.ddmenu ul {
+  z-index: 2;
   margin: 0px;         /* ★サブメニュー外側の余白(ゼロ) */
   padding: 0px;        /* ★サブメニュー内側の余白(ゼロ) */
   display: none;       /* ★標準では非表示にする */
@@ -70,21 +59,24 @@ ul.ddmenu ul {
 }
 
 /* -------------------------------- */
-/* ▼サブメニュー(以降の)項目の装飾 */
+/* ▼サブメニュー(以降]の)項目の装飾 */
 /* -------------------------------- */
 ul.ddmenu ul li {
-  width: 225px;               /* サブメニュー1項目の横幅(135px) */
-  border-top: 1px solid pink; /* 項目上側の枠線(ピンク色で1pxの実線) */
+  width: 25vw;
+  border-top: 1px solid black; /* 項目上側の枠線(ピンク色で1pxの実線) */
 }
+
 ul.ddmenu ul li a {
+  font-size: 30px;
   line-height: 35px;   /* サブメニュー1項目の高さ(35px) */
   text-align: left;    /* 文字列の配置(左寄せ) */
   padding-left: 5px;   /* 文字列前方の余白(5px) */
   font-weight: normal; /* 太字にはしない */
 }
+
 ul.ddmenu ul li a:hover {
   background-color: #ffff80; /* サブメニュー項目にマウスが載ったときの背景色(淡い黄色) */
-  color: #005500;            /* サブメニュー項目にマウスが載ったときの文字色(濃い緑色) */
+  color: #0ff0000;            /* サブメニュー項目にマウスが載ったときの文字色(濃い緑色) */
 }
 
 /* ----------------------------------- */
@@ -98,4 +90,60 @@ ul.ddmenu ul ul {
   top: -1px;           /* 1pxだけ上方向にずらす(※上に1pxの枠線を引いている場合) */
   left: 100%;          /* ★基準位置からの距離を親ボックスの幅100％にする */
   border-left: 1px solid pink; /* 左側に引く枠線(ピンク色で1pxの実線) */
+}
+
+main div{
+  width: 75vw ;
+}
+
+.uk-position-center-right{
+  right: 25vw !important;
+}
+
+.ftrmenu{
+  background-color: #424242 !important;
+  font-size: 0;
+}
+
+.ftrmenu{
+  padding: 0px;
+  list-style-type: none;
+  margin-bottom: 0px;
+}
+
+.inline-block{
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  font-size: 22px;
+  }
+
+.inline-block li:first-child{
+    font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  /* display: inline-block; */
+  /* border-bottom: dotted 6px; */
+}
+
+.ftrmenu a{
+  text-decoration: none;
+  color: white;
+}
+
+.ftrmenu li{
+  text-align: center;
+}
+
+.ftrmenu a:hover{
+  text-decoration: none;
+  color: pink;
+}
+
+
+/* 画面サイズの横幅が 10244px より小さい場合に適用 */
+@media screen and (min-width: 1024px) {
+  .tama {
+    font-size :14px;
+  }
 }

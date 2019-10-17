@@ -4,22 +4,24 @@
     <head>
       <meta charset="utf-8">
       <link rel="stylesheet" href="style.css">
-      <title> HTML初回</title>
+      <title> TRPGサークル冬花国</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
     </head>
 
     <body>
       <header>
-        <div class="logo1">TRPGサークル</div>
-        <div class="logo2">冬には</div>
+        <img src=".\images\a.jpg" alt="" >
         <ul class="ddmenu">
-              <li><a href="#">HOME</a></li>
-
-              <li><a href="#">TRPGサークル「冬には」について</a>
-                <ul>
-                   <li><a href="#">サークル概要</a></li>
-                   <li><a href="#">メンバー紹介</a></li>
-                </ul>
-              </li>
+          <li>
+          <a href="#">「冬花国」について</a>
+            <ul>
+              <li><a href="#">サークル説明</a></li>
+              <li><a href="#">メンバー紹介</a></li>
+            </ul>
+          </li>
 
             <li><a href="#">イベント概要</a></li>
 
@@ -28,16 +30,14 @@
                   <li><a href="#">クトゥルフ</a></li>
                   <li><a href="#">マギカロギア</a></li>
                   <li><a href="#">艦これRPG</a></li>
-                  <li><a href="#">ココロダンジョン</a></li>
-                  <li><a href="#">インセイン</a></li>
+                  <li><a href="#">このすばTRPG</a></li>
                   <li><a href="#">キルデスビジネス</a></li>
       	          <li><a TRef="#">シノビガミ</a></li>
               </ul>
             </li>
 
-            <li class="#"><a href="#">お問い合わせ</a>
+            <li><a href="#">お問い合わせ</a>
               <ul>
-                <li><a href="#">よくあるご質問</a></li>
                 <li><a href="#">お問い合わせ先</a></li>
               </ul>
             </li>
@@ -45,12 +45,52 @@
       </header>
 
       <main>
+        <div class="uk-slideshow" uk-slideshow="autoplay: true">
+          <ul class="uk-slideshow-items">
+            <li><img src=".\images\photo0000-1252.jpg" alt="" uk-cover></li>
+            <li><img src=".\images\photo0000-1680.jpg" alt="" uk-cover></li>
+            <li><img src=".\images\photo0000-3526.jpg" alt="" uk-cover></li>
+            <li><img src=".\images\photo0000-4236.jpg" alt="" uk-c></li>
+            <!-- <li><img src=".\images\ alt="" uk-cover></li> -->
+          </ul>
 
+          <a class="uk-position-center-left uk-position-small uk-slidenav-large" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+          <a class="uk-position-center-right uk-position-small uk-slidenav-large" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+        </div>
       </main>
 
-      <footer>
+    <footer>
+      <ul class="ftrmenu">
+        <div class="inline-block">
+            <li><a href="#">「冬花国」について</a></li>
+            <li><a href="#">サークル説明</a></li>
+            <li><a href="#">メンバー紹介</a></li>
+        </div>
 
-      </footer>
+        <div class="inline-block">
+          <li><a href="#">イベント概要</a></li>
+        </div>
 
-      </body>
+
+          <div class="inline-block">
+          <li><a href="#">公開シナリオ</a>
+            <li><a href="#">クトゥルフ</a></li>
+            <li><a href="#">マギカロギア</a></li>
+            <li><a href="#">艦これRPG</a></li>
+            <li><a href="#">このすばTRPG</a></li>
+            <li><a href="#">キルデスビジネス</a></li>
+        	  <li><a TRef="#">シノビガミ</a></li>
+          </li>
+        </div>
+
+      <div class="inline-block">
+          <li><a href="#">お問い合わせ</a></li>
+          <li><a href="#">お問い合わせ先</a></li>
+      </div>
+    </ul>
+    <footer>
+
+    </body>
+
 </html>
