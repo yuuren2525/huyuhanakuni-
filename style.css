@@ -93,11 +93,17 @@ ul.ddmenu ul ul {
 }
 
 main div{
-  width: 75vw ;
+  width: 75%;
+  display: inline-block;
 }
 
 .uk-position-center-right{
-  right: 25vw !important;
+  left: 75%;
+}
+
+.twitter{
+  width: 25%;
+  display: inline-block;
 }
 
 .ftrmenu{
@@ -121,9 +127,8 @@ main div{
 .inline-block li:first-child{
     font-size: 22px;
   font-weight: bold;
+  margin-top: 20px;
   margin-bottom: 20px;
-  /* display: inline-block; */
-  /* border-bottom: dotted 6px; */
 }
 
 .ftrmenu a{
