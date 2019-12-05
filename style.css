@@ -92,18 +92,19 @@ ul.ddmenu ul ul {
   border-left: 1px solid pink; /* 左側に引く枠線(ピンク色で1pxの実線) */
 }
 
-main div{
+.slideshow{
   width: 75%;
   display: inline-block;
 }
 
-.uk-position-center-right{
-  left: 75%;
+.twitter{
+  width: 24%;
+  position: absolute;
+  display: inline-block;
 }
 
-.twitter{
-  width: 25%;
-  display: inline-block;
+.timeline-widget{
+  border: solid black 5px;
 }
 
 .ftrmenu{
