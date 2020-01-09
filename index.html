@@ -45,30 +45,28 @@
       </header>
 
       <main>
-
-      <div uk-grid>
-        <div class="uk-width-3-4">
-          <div class="uk-slideshow uk-position-relative slideshow" uk-slideshow="autoplay: true">
-            <ul class="uk-slideshow-items">
-              <li><img src=".\images\photo0000-1252.jpg" alt="" uk-cover></li>
-              <li><img src=".\images\photo0000-1680.jpg" alt="" uk-cover></li>
-              <li><img src=".\images\photo0000-3526.jpg" alt="" uk-cover></li>
-              <li><img src=".\images\" alt="" uk-c></li>
-              <!-- <li><img src=".\images\ alt="" uk-cover></li> -->
-            </ul>
+        <div uk-grid class="uk-grid-collapse">
+          <div class="uk-width-2-3">
+            <div class="uk-slideshow uk-width-1-1 uk-position-relative slideshow" uk-slideshow="autoplay: true">
+              <ul class="uk-slideshow-items">
+                <li uk-toolchip="aaaaa" onmouseover="console.log('Hello')"><img src=".\images\photo0000-1252.jpg" alt="" uk-cover uk-toolchip="aaaaa" ></li>
+                <li uk-toolchip="aaaaa" onmouseover="console.log('Hello')"><img src=".\images\photo0000-1680.jpg" alt="" uk-cover></li>
+                <li uk-toolchip="aaaaa" onmouseover="console.log('Hello')"><img src=".\images\photo0000-3526.jpg" alt="" uk-cover></li>
+                <li uk-toolchip="aaaaa" onmouseover="console.log('Hello')"><img src=".\images\R9qFugQb.jpg" alt="" uk-c></li>
+              </ul>
               <a class="uk-position-center-left uk-position-small uk-slidenav-large" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
               <a class="uk-position-center-right uk-position-small uk-slidenav-large" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-            </div>
           </div>
+          <div class="information">お知らせ
+            <div class="informationcontents">
+              <li>1/9:最終更新</li>
+            </div>
+            </div>
+        </div>
 
-    <div class="uk-width-1-4">
-      <div class="twitter float:right timeline-widget">
-        <a class="twitter-timeline" data-height="100%" href="https://twitter.com/huyuhanakuni?ref_src=twsrc%5Etfw">Tweets by huyuhanakuni</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </div>
-    </div>
-  < /div>
-
-
+        <div class="uk-width-1-3 " style="border: solid 5px black; box-sizing: border-box">
+          <a class="twitter-timeline" data-height="100%" href="https://twitter.com/huyuhanakuni?ref_src=twsrc%5Etfw">Tweets by huyuhanakuni</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
       </main>
 
     <footer>
@@ -101,6 +99,7 @@
       </div>
     </ul>
     <footer>
+
 
     </body>
 

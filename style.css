@@ -93,26 +93,31 @@ ul.ddmenu ul ul {
 }
 
 .slideshow{
-  width: 75%;
   display: inline-block;
 }
 
 .twitter{
-  width: 24%;
   position: absolute;
   display: inline-block;
 }
 
-.timeline-widget{
-  border: solid black 5px;
+.information{
+  font-size: 30px;
+}
+
+  div.informationcontents{
+  width: 100%;
+  height: 250px;
+  font-size: 25px;
+  color: #0040ff;
+  border: solid 3px black;
+  overflow-y: scroll;
+  margin: 0px !important;
 }
 
 .ftrmenu{
   background-color: #424242 !important;
   font-size: 0;
-}
-
-.ftrmenu{
   padding: 0px;
   list-style-type: none;
   margin-bottom: 0px;
