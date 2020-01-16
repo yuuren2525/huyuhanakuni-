@@ -96,6 +96,10 @@ ul.ddmenu ul ul {
   display: inline-block;
 }
 
+.uk-visible-toggle uk-slideshow uk-width-1-1 uk-position-relative slideshow" uk-slideshow="autoplay: true{
+
+}
+
 .twitter{
   position: absolute;
   display: inline-block;

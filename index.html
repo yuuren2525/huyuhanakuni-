@@ -47,16 +47,41 @@
       <main>
         <div uk-grid class="uk-grid-collapse">
           <div class="uk-width-2-3">
-            <div class="uk-slideshow uk-width-1-1 uk-position-relative slideshow" uk-slideshow="autoplay: true">
+            <div class="uk-visible-toggle uk-slideshow uk-width-1-1 uk-position-relative slideshow" uk-slideshow="autoplay: true">
               <ul class="uk-slideshow-items">
-                <li uk-toolchip="aaaaa" onmouseover="console.log('Hello')"><img src=".\images\photo0000-1252.jpg" alt="" uk-cover uk-toolchip="aaaaa" ></li>
-                <li uk-toolchip="aaaaa" onmouseover="console.log('Hello')"><img src=".\images\photo0000-1680.jpg" alt="" uk-cover></li>
-                <li uk-toolchip="aaaaa" onmouseover="console.log('Hello')"><img src=".\images\photo0000-3526.jpg" alt="" uk-cover></li>
-                <li uk-toolchip="aaaaa" onmouseover="console.log('Hello')"><img src=".\images\R9qFugQb.jpg" alt="" uk-c></li>
+                <li uk-toolchip="aaaaa" onmouseover="console.log('Hello')">
+                  <img src=".\images\photo0000-1252.jpg" alt="" uk-cover uk-toolchip="aaaaa" >
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                      <h3 class="uk-margin-remove">「黒バラの招待状」シナリオ公開！</h3>
+                      <p class="uk-margin-remove">クトゥルフ神話TRPGシナリオ</p>
+                    </div>
+                </li>
+                <li uk-toolchip="aaaaa" onmouseover="console.log('Hello')">
+                  <img src=".\images\photo0000-1680.jpg" alt="" uk-cover>
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                      <h3 class="uk-margin-remove">Bottom</h3>
+                      <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </li>
+                <li uk-toolchip="aaaaa" onmouseover="console.log('Hello')">
+                  <img src=".\images\photo0000-3526.jpg" alt="" uk-cover>
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                      <h3 class="uk-margin-remove">Bottom</h3>
+                      <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </li>
+                <li uk-toolchip="aaaaa" onmouseover="console.log('Hello')">
+                  <img src=".\images\R9qFugQb.jpg" alt="" uk-c>
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                      <h3 class="uk-margin-remove">TRPGサークル「冬花国」始動！！</h3>
+                      <p class="uk-margin-remove">20XX年XX月XX日サークル稼働記念日</p>
+                    </div>
+                </li>
               </ul>
-              <a class="uk-position-center-left uk-position-small uk-slidenav-large" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-              <a class="uk-position-center-right uk-position-small uk-slidenav-large" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+              <a class="uk-hidden-hover uk-position-center-left uk-position-small uk-slidenav-large" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+              <a class="uk-hidden-hover uk-position-center-right uk-position-small uk-slidenav-large" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
           </div>
+
           <div class="information">お知らせ
             <div class="informationcontents">
               <li>1/9:最終更新</li>
